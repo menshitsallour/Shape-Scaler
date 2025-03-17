@@ -1,0 +1,22 @@
+footer {
+  text-align: center;
+  padding: 20px;
+  background: darken($primary-color, 15%);
+  color: white;
+  font-size: 0.9rem;
+
+  .social-icons {
+    margin-top: 10px;
+
+    a {
+      color: white;
+      margin: 0 15px;
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}

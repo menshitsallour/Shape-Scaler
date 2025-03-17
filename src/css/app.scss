@@ -1,0 +1,24 @@
+@import 'quasar/dist/quasar.css';
+@import './variables';
+@import './components/_header';
+@import './components/_hero';
+@import './components/_features';
+@import './components/_contact';
+@import './components/_footer';
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+main {
+  width: 100%;
+}
